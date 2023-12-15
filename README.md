@@ -44,7 +44,6 @@ pip install django
 django-admin startproject projeto .
 ```
 
-
 ## Executa o servidor
 ```
 python manage.py runserver 
