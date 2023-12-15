@@ -1,22 +1,48 @@
 # CRIAÇÃO DE "PROJETO" DJANGO
 
 ## Criação da máquina virtual
-no windows: python -m venv venv # o ultimo venv é o nome da maquina os mais usados é (.env, .venv, env/, Venv/, ENV/, env.bak/ e venv.bak/).
-no linux ou mac: python3 -m venv venv # o ultimo venv é o nome da maquina os mais usados é (.env, .venv, env/, Venv/, ENV/, env.bak/ e venv.bak/).
+
+no windows:
+```
+python -m venv venv 
+```
+
+no linux ou mac:
+```
+python3 -m venv venv 
+```
 
 ## Ativação da máquina virtual
-windows: .\venv\Scripts\activate
-linux ou mac: source venv/bin/activate ou . venv/bin/activate
+
+windows: 
+```
+.\venv\Scripts\activate
+```
+linux ou mac: 
+```
+source venv/bin/activate
+. venv/bin/activate
+```
 
 ## Caso queira .gitignore
+```
 https://github.com/luizomf/curso-django-projeto1/blob/main/.gitignore
+```
 
-## pip install django 
-instala o django na maquina virtual a venv
+## Instalando o Django via terminal 
+```
+pip install django
+```
 
-## django-admin startproject projeto . 
-projeto é o nome e o ponto no final pra definir a pasta de origem para criação se não criarar duas pastas com o mesmo nome.
+## Criação de projeto 
+```
+django-admin startproject projeto .
+```
 
-## python manage.py runserver 
-executa o servidor
+
+## Executa o servidor
+```
+python manage.py runserver 
+```
+
 
