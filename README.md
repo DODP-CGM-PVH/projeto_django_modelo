@@ -29,7 +29,7 @@ source venv/bin/activate
 . venv/bin/activate
 ```
 
-## .gitignore especifico para Django
+## .gitignore específico para Django
 ```
 https://github.com/luizomf/curso-django-projeto1/blob/main/.gitignore
 ```
