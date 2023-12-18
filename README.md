@@ -47,6 +47,10 @@ django-admin startproject projeto .
 ## Executa o servidor
 ```
 python manage.py runserver 
-```
 
+```
+## Executa o test
+```
+python manage.py test 
+```
 
