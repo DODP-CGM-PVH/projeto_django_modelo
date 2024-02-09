@@ -4,12 +4,12 @@
 
 no windows:
 ```
-python -m venv venv 
+python -m venv .venv 
 ```
 
 no linux ou mac:
 ```
-python3 -m venv venv 
+python3 -m venv .venv 
 ```
 
 ## No Windows execute este script no PowerShell como administrador, para poder ativar a máquina virtual 
